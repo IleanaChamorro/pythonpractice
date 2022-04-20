@@ -57,4 +57,13 @@ elif numero == 6:
     print("Elegiste exponente \n")
     numero = int(input("Introduce el primer número"))
     numero **= int(input("Introduce el segundo numero: "))
-    print("El resultado de la suma es:", numero)
+    print("El resultado del exponente es:", numero)
+
+elif numero == 7:
+    print("Elegiste modulo o resto \n")
+    numero = int(input("Introduce el primer número"))
+    numero %= int(input("Introduce el segundo numero: "))
+    print("El modulo o resto es:", numero)
+
+else: 
+    print("La opción elegida no existe, vuelve a intentar.")
